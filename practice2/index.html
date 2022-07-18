@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <h1>Practice</h1>
+
+    <h2>What is your home state?</h2>
+    <select id="state">
+      <option value="WY">Wyoming</option>
+      <option value="UT">Utah</option>
+      <option value="ID">Idaho</option>
+      <option value="TX">Texas</option>
+    </select>
+    <h2>Your Home Style</h2>
+    <select id="home">
+      <option value="single">Single Family</option>
+      <option value="apartment">Apartment or Condo</option>
+      <option value="multi">Multi-Family</option>
+      <option value="mobile">Mobile Home</option>
+    </select>
+    <br />
+    <br />
+
+    <h2>Lighting</h2>
+    <label><input type="checkbox" name="bulb" value="Incandescent">Incandescent</label><br>
+    <label><input type="checkbox" name="bulb" value="LED">LED</label><br>
+    <label><input type="checkbox" name="bulb" value="CFL">Compact Fluorescent Light</label>
+
+    <br>
+    <br>
+
+    <button onclick="evaluatePage()">Run Script</button>
+
+    <div id="output"></div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
